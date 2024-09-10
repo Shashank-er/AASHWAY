@@ -2,8 +2,8 @@ import yfinance as yf
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
-from keras.models import Sequential # type: ignore
-from keras.layers import Dense, LSTM # type: ignore
+from keras.models import Sequential 
+from keras.layers import Dense, LSTM 
 
 # List of stock tickers
 stock_list = ['GOOGL', 'AAPL', 'MSFT']  # You can add any other stocks you'd like
